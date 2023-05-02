@@ -32,3 +32,29 @@ To use Karel, you need to install the `stanfordkarel` Python package. You can in
 | `not_facing_north()`     | Check if Karel is not facing North.         |
 | `corner_color_is(color)` | Check if the color of the current corner is the given color. |
 
+
+To make a new Karel program, you can use the following template:
+
+```python
+from stanfordkarel import *
+
+
+def main():
+    """Karel code goes here!"""
+    turn_left()
+    move()
+    turn_left()
+
+
+if __name__ == "__main__":
+    run_karel_program()
+```    
+    
+Creating and editting new worlds:
+
+```python
+from stanfordkarel.world_editor import run_world_editor
+
+if __name__ == '__main__':
+    run_world_editor()
+
