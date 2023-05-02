@@ -50,11 +50,11 @@ if __name__ == "__main__":
     run_karel_program()
 ```    
     
-Creating and editting new worlds:
+Creating and/or editing new worlds:
 
 ```python
 from stanfordkarel.world_editor import run_world_editor
 
 if __name__ == '__main__':
     run_world_editor()
-
+```
