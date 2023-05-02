@@ -1,3 +1,8 @@
+## Usage
+
+To use Karel, you need to install the `stanfordkarel` Python package. You can install it using pip:
+`pip install stanfordkarel`
+
 ## Karel Commands
 
 | Command                  | Description                                  |
@@ -26,3 +31,4 @@
 | `left_is_blocked()`      | Check if Karel's left is blocked by a wall. |
 | `not_facing_north()`     | Check if Karel is not facing North.         |
 | `corner_color_is(color)` | Check if the color of the current corner is the given color. |
+
